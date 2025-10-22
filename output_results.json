@@ -1,0 +1,271 @@
+{
+  "assignments": [
+    {
+      "courier_id": 1,
+      "order_id": 101,
+      "estimated_time": "3.9 мин",
+      "score": -46.13118320010733
+    },
+    {
+      "courier_id": 1,
+      "order_id": 104,
+      "estimated_time": "4.3 мин",
+      "score": -45.195388868667536
+    },
+    {
+      "courier_id": 1,
+      "order_id": 102,
+      "estimated_time": "4.8 мин",
+      "score": 5.485685443732249
+    },
+    {
+      "courier_id": 1,
+      "order_id": 103,
+      "estimated_time": "3.3 мин",
+      "score": 4.145454300187339
+    },
+    {
+      "courier_id": 1,
+      "order_id": 105,
+      "estimated_time": "4.4 мин",
+      "score": 26.054617225071652
+    },
+    {
+      "courier_id": 2,
+      "order_id": 8589,
+      "estimated_time": "33.7 мин",
+      "score": 33.666292622141256
+    },
+    {
+      "courier_id": 1,
+      "order_id": 7516,
+      "estimated_time": "54.0 мин",
+      "score": -43.01792120261236
+    },
+    {
+      "courier_id": 2,
+      "order_id": 9538,
+      "estimated_time": "43.6 мин",
+      "score": 63.56663548152451
+    },
+    {
+      "courier_id": 2,
+      "order_id": 7116,
+      "estimated_time": "85.2 мин",
+      "score": 86.4382480993074
+    },
+    {
+      "courier_id": 2,
+      "order_id": 7224,
+      "estimated_time": "12.2 мин",
+      "score": -35.64016818057406
+    },
+    {
+      "courier_id": 2,
+      "order_id": 4487,
+      "estimated_time": "39.5 мин",
+      "score": 62.010103782309955
+    }
+  ],
+  "statistics": {
+    "total_orders": 11,
+    "delivered": 6,
+    "in_progress": 5,
+    "pending": 0,
+    "cancelled": 0,
+    "avg_delivery_time": 0,
+    "courier_utilization": 0.0
+  },
+  "couriers": [
+    {
+      "id": 1,
+      "location": [
+        55.77149952164849,
+        37.615428896758964
+      ],
+      "transport_type": "car",
+      "max_capacity": 50.0,
+      "current_capacity": 30.1,
+      "current_orders": [
+        103,
+        105,
+        7516
+      ],
+      "status": "available",
+      "name": "Иван"
+    },
+    {
+      "id": 2,
+      "location": [
+        55.753937601584866,
+        37.63795320404544
+      ],
+      "transport_type": "foot",
+      "max_capacity": 50.0,
+      "current_capacity": 7.699999999999999,
+      "current_orders": [
+        7224,
+        4487
+      ],
+      "status": "available",
+      "name": "Лев"
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "destination": [
+        55.753605,
+        37.621585
+      ],
+      "weight": 5.0,
+      "priority": "high",
+      "time_window": "10:00-12:00",
+      "description": "Срочный документ в офис",
+      "status": "delivered",
+      "assigned_courier": 1,
+      "created_time": 1761148571.6608303
+    },
+    {
+      "id": 102,
+      "destination": [
+        55.749676,
+        37.623483
+      ],
+      "weight": 2.0,
+      "priority": "normal",
+      "time_window": "11:00-14:00",
+      "description": "Посылка с одеждой",
+      "status": "delivered",
+      "assigned_courier": 1,
+      "created_time": 1761148571.6608353
+    },
+    {
+      "id": 103,
+      "destination": [
+        55.755123,
+        37.617456
+      ],
+      "weight": 8.0,
+      "priority": "normal",
+      "time_window": "12:00-15:00",
+      "description": "Электроника",
+      "status": "assigned",
+      "assigned_courier": 1,
+      "created_time": 1761148571.6608381
+    },
+    {
+      "id": 104,
+      "destination": [
+        55.750987,
+        37.619876
+      ],
+      "weight": 1.5,
+      "priority": "high",
+      "time_window": "10:30-11:30",
+      "description": "Лекарства",
+      "status": "delivered",
+      "assigned_courier": 1,
+      "created_time": 1761148571.6608398
+    },
+    {
+      "id": 105,
+      "destination": [
+        55.752345,
+        37.624567
+      ],
+      "weight": 12.0,
+      "priority": "low",
+      "time_window": "13:00-17:00",
+      "description": "Канцелярия",
+      "status": "assigned",
+      "assigned_courier": 1,
+      "created_time": 1761148571.6608415
+    },
+    {
+      "id": 8589,
+      "destination": [
+        55.765575650820836,
+        37.615852003075545
+      ],
+      "weight": 11.0,
+      "priority": "normal",
+      "time_window": "10:00-20:00",
+      "description": "Тестовый заказ #8589",
+      "status": "delivered",
+      "assigned_courier": 2,
+      "created_time": 1761148616.192164
+    },
+    {
+      "id": 7516,
+      "destination": [
+        55.75976918361712,
+        37.6148359976964
+      ],
+      "weight": 10.1,
+      "priority": "high",
+      "time_window": "11:00-19:00",
+      "description": "Тестовый заказ #7516",
+      "status": "assigned",
+      "assigned_courier": 1,
+      "created_time": 1761148705.0798852
+    },
+    {
+      "id": 9538,
+      "destination": [
+        55.741664079491684,
+        37.621524901684154
+      ],
+      "weight": 12.0,
+      "priority": "low",
+      "time_window": "13:00-18:00",
+      "description": "Тестовый заказ #9538",
+      "status": "delivered",
+      "assigned_courier": 2,
+      "created_time": 1761148705.612901
+    },
+    {
+      "id": 7116,
+      "destination": [
+        55.74868261314443,
+        37.60004065406078
+      ],
+      "weight": 9.2,
+      "priority": "normal",
+      "time_window": "16:00-18:00",
+      "description": "Тестовый заказ #7116",
+      "status": "delivered",
+      "assigned_courier": 2,
+      "created_time": 1761148706.01081
+    },
+    {
+      "id": 7224,
+      "destination": [
+        55.757769015666895,
+        37.63702121468246
+      ],
+      "weight": 3.7,
+      "priority": "high",
+      "time_window": "15:00-18:00",
+      "description": "Тестовый заказ #7224",
+      "status": "assigned",
+      "assigned_courier": 2,
+      "created_time": 1761148706.4479008
+    },
+    {
+      "id": 4487,
+      "destination": [
+        55.73787059280163,
+        37.627809051686675
+      ],
+      "weight": 4.0,
+      "priority": "low",
+      "time_window": "13:00-18:00",
+      "description": "Тестовый заказ #4487",
+      "status": "assigned",
+      "assigned_courier": 2,
+      "created_time": 1761148706.9187477
+    }
+  ],
+  "timestamp": 1761148844.8196957
+}

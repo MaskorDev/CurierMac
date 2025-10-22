@@ -1,0 +1,44 @@
+{
+  "orders": [
+    {
+      "id": 101,
+      "destination": [55.753605, 37.621585],
+      "weight": 5.0,
+      "priority": "high",
+      "time_window": "10:00-12:00",
+      "description": "Срочный документ в офис"
+    },
+    {
+      "id": 102,
+      "destination": [55.749676, 37.623483],
+      "weight": 2.0,
+      "priority": "normal",
+      "time_window": "11:00-14:00",
+      "description": "Посылка с одеждой"
+    },
+    {
+      "id": 103,
+      "destination": [55.755123, 37.617456],
+      "weight": 8.0,
+      "priority": "normal",
+      "time_window": "12:00-15:00",
+      "description": "Электроника"
+    },
+    {
+      "id": 104,
+      "destination": [55.750987, 37.619876],
+      "weight": 1.5,
+      "priority": "high",
+      "time_window": "10:30-11:30",
+      "description": "Лекарства"
+    },
+    {
+      "id": 105,
+      "destination": [55.752345, 37.624567],
+      "weight": 12.0,
+      "priority": "low",
+      "time_window": "13:00-17:00",
+      "description": "Канцелярия"
+    }
+  ]
+}
